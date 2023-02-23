@@ -116,6 +116,7 @@ ul{
 
 .gallerycontainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
     text-align: justify;
