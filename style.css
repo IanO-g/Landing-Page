@@ -5,6 +5,7 @@ body{
     height: 100vh;
     margin: 0;
     display: flex; 
+    flex: 1;
     flex-direction: column;
 }
 
@@ -19,19 +20,21 @@ ul{
 }
 
 .introimg img{
-    height: 220px;
+    max-height: 280px;
     width: auto;
     display: flex;
 }
 
 .info img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: flex;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #3882F6;
 }
 
 .header{
-    height:72px;
     background-color: #1F2937;
     color: white;
     display:flex;
@@ -53,13 +56,13 @@ ul{
 }
 
 .greetings{
-    height:400px;
+   
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px;
-    gap:10px;
+    padding: 80px 80px 120px 80px;
+    gap:50px;
 }
 
 .Title-container{
@@ -77,7 +80,7 @@ ul{
     display: flex;
 }
 
-.sub-text{
+.sub-texttwo{
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
@@ -88,20 +91,115 @@ ul{
     color: white;
     border-radius: 4px;
     border: none;
-    padding: 5px 15px;
+    padding: 8px 20px;
     display: flex;
+    font-weight: bold;
 }
 
 .gallery{
-    height: 300px;
+    
     background-color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.gallery-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.gallerycontainer{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.info{
+    max-width: 150px;
+}
+
+.sub-text{
+    font-size: 10px;
+    color: #1F2937;
+    padding: 10px;
 }
 
 .testimonial{
-    height: 300px;
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 270;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author{
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 15%;
+}
+
+.action-container{
+    background-color: white;
+    display: flex;
+    padding: 50px 80px;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    background-color: #3882F6;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.left-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.action-title{
+    color:#E5E7EB;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.sub-text-three{
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.right-action button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+    display: flex;
+    padding: 15px 60px;
+    font-weight: bold;
 }
 
 .footer{
@@ -111,4 +209,5 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
