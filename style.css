@@ -3,5 +3,112 @@
 body{
     font-family: "Hero New", sans-serif;
     height: 100vh;
-    margin: 0,
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.introimg img{
+    height: 220px;
+    width: auto;
+    display: flex;
+}
+
+.info img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.header{
+    height:72px;
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.left-header{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.right-header{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.greetings{
+    height:400px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    gap:10px;
+}
+
+.Title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    min-width: 400px;
+}
+
+.Title{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    display: flex;
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+
+.button button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 15px;
+    display: flex;
+}
+
+.gallery{
+    height: 300px;
+    background-color: white;
+    display: flex;
+}
+
+.testimonial{
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.footer{
+    height:72px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
